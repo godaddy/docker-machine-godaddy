@@ -1,0 +1,15 @@
+# The standard Go .gitignore file follows. (Sourced from: github.com/github/gitignore/master/Go.gitignore)
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+bin/docker-machine-*
+release/
+
+*~
+*.swp
