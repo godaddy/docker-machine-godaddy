@@ -1,0 +1,120 @@
+{
+	"ImportPath": "github.com/aka-bo/docker-machine-godaddy",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v74",
+	"Packages": [
+		"github.com/aka-bo/docker-machine-godaddy",
+		"github.com/aka-bo/docker-machine-godaddy/bin",
+		"github.com/aka-bo/docker-machine-godaddy/cloud"
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/davecgh/go-spew/spew",
+			"Rev": "5215b55f46b2b919f50a1df0eaa5886afe4e3b3d"
+		},
+		{
+			"ImportPath": "github.com/dghubble/sling",
+			"Comment": "v1.0-22-g9da07f0",
+			"Rev": "9da07f0db0226d82803fc7374dba08506d29da00"
+		},
+		{
+			"ImportPath": "github.com/docker/docker/pkg/term",
+			"Comment": "v1.5.0",
+			"Rev": "a8a31eff10544860d2188dddabdee4d727545796"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/libmachine/drivers",
+			"Comment": "docs-v0.8.0-2016-07-28-18-gf1789ea",
+			"Rev": "f1789ea84ace57e98e4dc687ef6d6d318122b38d"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/libmachine/drivers/plugin",
+			"Comment": "docs-v0.8.0-2016-07-28-18-gf1789ea",
+			"Rev": "f1789ea84ace57e98e4dc687ef6d6d318122b38d"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/libmachine/drivers/plugin/localbinary",
+			"Comment": "docs-v0.8.0-2016-07-28-18-gf1789ea",
+			"Rev": "f1789ea84ace57e98e4dc687ef6d6d318122b38d"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/libmachine/drivers/rpc",
+			"Comment": "docs-v0.8.0-2016-07-28-18-gf1789ea",
+			"Rev": "f1789ea84ace57e98e4dc687ef6d6d318122b38d"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/libmachine/engine",
+			"Comment": "docs-v0.8.0-2016-07-28-18-gf1789ea",
+			"Rev": "f1789ea84ace57e98e4dc687ef6d6d318122b38d"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/libmachine/log",
+			"Comment": "docs-v0.8.0-2016-07-28-18-gf1789ea",
+			"Rev": "f1789ea84ace57e98e4dc687ef6d6d318122b38d"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/libmachine/mcnflag",
+			"Comment": "docs-v0.8.0-2016-07-28-18-gf1789ea",
+			"Rev": "f1789ea84ace57e98e4dc687ef6d6d318122b38d"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/libmachine/mcnutils",
+			"Comment": "docs-v0.8.0-2016-07-28-18-gf1789ea",
+			"Rev": "f1789ea84ace57e98e4dc687ef6d6d318122b38d"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/libmachine/ssh",
+			"Comment": "docs-v0.8.0-2016-07-28-18-gf1789ea",
+			"Rev": "f1789ea84ace57e98e4dc687ef6d6d318122b38d"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/libmachine/state",
+			"Comment": "docs-v0.8.0-2016-07-28-18-gf1789ea",
+			"Rev": "f1789ea84ace57e98e4dc687ef6d6d318122b38d"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/libmachine/version",
+			"Comment": "docs-v0.8.0-2016-07-28-18-gf1789ea",
+			"Rev": "f1789ea84ace57e98e4dc687ef6d6d318122b38d"
+		},
+		{
+			"ImportPath": "github.com/docker/machine/version",
+			"Comment": "docs-v0.8.0-2016-07-28-18-gf1789ea",
+			"Rev": "f1789ea84ace57e98e4dc687ef6d6d318122b38d"
+		},
+		{
+			"ImportPath": "github.com/google/go-querystring/query",
+			"Rev": "30f7a39f4a218feb5325f3aebc60c32a572a8274"
+		},
+		{
+			"ImportPath": "github.com/pmezard/go-difflib/difflib",
+			"Rev": "792786c7400a136282c1664665ae0a8db921c6c2"
+		},
+		{
+			"ImportPath": "github.com/stretchr/objx",
+			"Rev": "1a9d0bb9f541897e62256577b352fdbc1fb4fd94"
+		},
+		{
+			"ImportPath": "github.com/stretchr/testify/assert",
+			"Comment": "v1.1.3-4-g1f4a164",
+			"Rev": "1f4a1643a57e798696635ea4c126e9127adb7d3c"
+		},
+		{
+			"ImportPath": "github.com/stretchr/testify/mock",
+			"Comment": "v1.1.3-4-g1f4a164",
+			"Rev": "1f4a1643a57e798696635ea4c126e9127adb7d3c"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/curve25519",
+			"Rev": "beef0f4390813b96e8e68fd78570396d0f4751fc"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ssh",
+			"Rev": "beef0f4390813b96e8e68fd78570396d0f4751fc"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/ssh/terminal",
+			"Rev": "beef0f4390813b96e8e68fd78570396d0f4751fc"
+		}
+	]
+}
