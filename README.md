@@ -18,7 +18,7 @@ $ curl -L https://git.io/v63cR | sudo bash
 
 Not a fan of `curl | bash`? No problem.
 
-Download the latest version of `docker-machine-driver-godaddy` from [GitHub Releases](https://github.com/1and1/docker-machine-driver-oneandone/releases),
+Download the latest version of `docker-machine-driver-godaddy` from [GitHub Releases](https://github.com/aka-bo/docker-machine-godaddy/releases),
 ensure the plugin is executable, and copy to a directory included in your environment's PATH variable:
 
 ```bash
