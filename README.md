@@ -13,7 +13,7 @@ A [Docker Machine](https://docs.docker.com/machine/) driver plugin for [GoDaddy 
 For a simple single-line install, run the following:
 
 ```bash
-$ curl -L https://git.io/v63cR | sudo bash
+$ curl -L https://git.io/virTz | sudo bash
 ```
 
 Not a fan of `curl | bash`? No problem.
