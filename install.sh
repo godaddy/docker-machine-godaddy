@@ -3,7 +3,7 @@
 set -e
 
 VERSION=v1.0.0
-REPO=https://github.com/aka-bo/docker-machine-godaddy
+REPO=https://github.com/godaddy/docker-machine-godaddy
 
 echo "Downloading driver..."
 curl -L ${REPO}/releases/download/${VERSION}/docker-machine-driver-godaddy-$(uname -s) > docker-machine-driver-godaddy

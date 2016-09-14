@@ -1,11 +1,11 @@
 {
-	"ImportPath": "github.com/aka-bo/docker-machine-godaddy",
+	"ImportPath": "github.com/godaddy/docker-machine-godaddy",
 	"GoVersion": "go1.6",
 	"GodepVersion": "v74",
 	"Packages": [
-		"github.com/aka-bo/docker-machine-godaddy",
-		"github.com/aka-bo/docker-machine-godaddy/bin",
-		"github.com/aka-bo/docker-machine-godaddy/cloud"
+		"github.com/godaddy/docker-machine-godaddy",
+		"github.com/godaddy/docker-machine-godaddy/bin",
+		"github.com/godaddy/docker-machine-godaddy/cloud"
 	],
 	"Deps": [
 		{

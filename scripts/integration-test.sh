@@ -22,8 +22,8 @@ if [ $? -ne 0 ]; then
     exit 1;
 fi
 
-go get -u github.com/aka-bo/docker-machine-godaddy
-cd $GOPATH/src/github.com/aka-bo/docker-machine-godaddy
+go get -u github.com/godaddy/docker-machine-godaddy
+cd $GOPATH/src/github.com/godaddy/docker-machine-godaddy
 make build
 make install
 

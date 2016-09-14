@@ -11,7 +11,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aka-bo/docker-machine-godaddy/cloud"
 	"github.com/docker/machine/libmachine/drivers"
 	"github.com/docker/machine/libmachine/engine"
 	"github.com/docker/machine/libmachine/log"
@@ -19,6 +18,7 @@ import (
 	"github.com/docker/machine/libmachine/mcnutils"
 	"github.com/docker/machine/libmachine/ssh"
 	"github.com/docker/machine/libmachine/state"
+	"github.com/godaddy/docker-machine-godaddy/cloud"
 )
 
 type Driver struct {

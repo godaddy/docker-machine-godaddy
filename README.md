@@ -18,11 +18,11 @@ $ curl -L https://git.io/v63cR | sudo bash
 
 Not a fan of `curl | bash`? No problem.
 
-Download the latest version of `docker-machine-driver-godaddy` from [GitHub Releases](https://github.com/aka-bo/docker-machine-godaddy/releases),
+Download the latest version of `docker-machine-driver-godaddy` from [GitHub Releases](https://github.com/godaddy/docker-machine-godaddy/releases),
 ensure the plugin is executable, and copy to a directory included in your environment's PATH variable:
 
 ```bash
-$ curl -L https://github.com/aka-bo/docker-machine-godaddy/releases/download/v1.0.0/docker-machine-driver-godaddy-$(uname -s) > docker-machine-driver-godaddy
+$ curl -L https://github.com/godaddy/docker-machine-godaddy/releases/download/v1.0.0/docker-machine-driver-godaddy-$(uname -s) > docker-machine-driver-godaddy
 $ chmod +x docker-machine-driver-godaddy
 $ mv docker-machine-driver-godaddy /usr/local/lib/  # use sudo if necessary
 ```
@@ -32,8 +32,8 @@ $ mv docker-machine-driver-godaddy /usr/local/lib/  # use sudo if necessary
 Ensure [Go](http://www.golang.org) and [Godep](https://github.com/tools/godep) are properly installed and your $GOPATH variable is set.
 
 ```bash
-$ go get -u github.com/aka-bo/docker-machine-godaddy
-$ cd $GOPATH/src/github.com/aka-bo/docker-machine-godaddy
+$ go get -u github.com/godaddy/docker-machine-godaddy
+$ cd $GOPATH/src/github.com/godaddy/docker-machine-godaddy
 $ make build
 $ make install
 ```

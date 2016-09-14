@@ -3,11 +3,12 @@ package godaddy
 import (
 	"testing"
 
-	"github.com/aka-bo/docker-machine-godaddy/cloud"
 	"github.com/docker/machine/libmachine/drivers"
 	"github.com/docker/machine/libmachine/state"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
+
+	"github.com/godaddy/docker-machine-godaddy/cloud"
 )
 
 type clientMock struct {
